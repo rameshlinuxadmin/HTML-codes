@@ -1,0 +1,109 @@
+<html>
+    <head><title>Input</title></head>
+    <body>
+        <form>
+            <fieldset>
+        <legend for="username">Username:</legend><br>
+        <input type="text" size="20" name="username" id="username" placeholder="Enter your username" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="password">Password:</legend><br>
+        <input type="password" size="20" name="password" id="password" placeholder="Enter your password" maxlength="8" required>
+    </fieldset>
+        <br>
+        <br>
+    <fieldset>
+        <legend for="Degree">Degree:</legend><br>
+        <select name="Degree" id="Degree" required>
+        <option value="" selected>---Select--</option>
+        <option value="B. E">B.E</option>
+        <option value="Bsc">Bsc</option>
+        <option value="B.com">B.com</option>
+        <option value="B.arch">B.arch</option>
+        </select><br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="Hobbies">Hobbies:</legend><br>
+        <input type="checkbox" name="Hobbies[]" name="Music">Music
+        <input type="checkbox" name="Hobbies[]" name="chess">chess
+        <input type="checkbox" name="Hobbies[]" name="carrom">carrom
+        <input type="checkbox" name="Hobbies[]" name="Hockey">Hockey
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="mail">E-mail:</legend><br>
+        <input type="email" name="mail" id="mail" size="20" placeholder="Enter your mail" required >
+        
+    </fieldset>
+    <br>
+        <br>
+<fieldset>
+        <legend for="age">Age</legend><br>
+        <input type="number" name="age" id="age" placeholder="Age" min="18" max="99" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="website">Website Url:</legend><br>
+        <input type="url" name="website" placeholder="Enter URL" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="DOB">DOB:</legend><br>
+        <input type="date" name="DOB" id="DOB" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="Week">vacation week:</legend><br>
+        <input type="week" name="week" id="week" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="Appointment time">Appointment time:</legend><br>
+        <input type="time" name="Appointment time" id="Appointment time" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="Price Range">Price Range:</legend><br>
+        <p>0<input type="range" name="Price Range" id="Price Range" min="0" max="1000" step="200" required>1000</p>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="Job search">Job search:</legend><br>
+        <input type="search" name="Job search" id="Job search" required>
+        <br>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend for="Feedback">Feedback:</legend><br>
+        <textarea type="comment" name="Feedback" id="Feedback" rows="5" cols="25"></textarea>
+        <br>
+    </fieldset>
+        <br>
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/SMVjfP8rGQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">    
+    </form>
+    <p>for expression:
+        <a href="https://dev.w3.org/html5/html-author/charref" target="_blank">Expression keyword list</a>
+    </p>
+    <fieldset>
+    <legend> <h2>Audio in mp3: </h2></legend><br>
+    <audio src="siva.mp3" controls>Browser not supported</audio>
+</fieldset>
+<fieldset>
+<legend> <h2>video in mp4: </h2></legend><br>
+<video src="HTML.mp4" controls width="1000" height="600">Browser not supported</video>
+</fieldset>
+    </body>
+</html>

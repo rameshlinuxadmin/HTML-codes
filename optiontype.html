@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Contact form</title>
+</head>
+<body>
+<form>
+    <p>
+        <h2>Contact Form</h2>
+        Name:<br>
+        <input type="text" name="Name" size="10" maxlength="10"><br>
+        <br>
+        
+        Email:<br>
+        <input type="text" name="Email" size="10" maxlength="10"><br>
+        
+        Subject:<br>
+        <input type="text" name="Subject" size="10" maxlength="10"><br>
+        <br>
+
+        I want to learn first<br>
+        <input type="radio" name="type" value="html" checked>HTML
+        <input type="radio" name="type" value="CSS">CSS
+        <input type="radio" name="type" value="Javascript">Javascript
+        <br>
+        <br>
+
+        Hobbies:<br>
+        <input type="checkbox" name="Hobbies[]" value="Sing">Sing
+        <input type="checkbox" name="Hobbies[]" value="music">music
+        <input type="checkbox" name="Hobbies[]" value="play">play
+        <input type="checkbox" name="Hobbies[]" value="work">work
+        <input type="checkbox" name="Hobbies[]" value="gym">gym
+        <input type="checkbox" name="Hobbies[]" value="cricket">cricket
+        <br>
+        <br>
+
+        I want to join training for 
+        <select name="games" id="games">
+        <option value="Hockey">Hockey</option>
+        <option value="cricket">cricket</option>
+        <option value="badminton">badminton</option>
+        <option value="Tennis">Tennis</option>
+        <option value="Basket ball">Basket ball</option>
+        <option value="chess">chess</option>
+        </select><br>
+
+        
+        Message:<br>
+        <textarea type="text" name="Message" placeholder="Enter your message" rows="9" cols="20" ></textarea><br>
+        <br>
+       
+        <input type="submit" value="send message">
+    </p>
+</form>
+
+</body>
+
+</html>
