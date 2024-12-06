@@ -8,12 +8,6 @@ Welcome to the **HTML Codes** repository! This repository contains a collection 
 - [Features](#features)
 - [Code Examples](#code-examples)
   - [Basic HTML Structure](#basic-html-structure)
-  - [Forms](#forms)
-  - [Tables](#tables)
-  - [Links and Navigation](#links-and-navigation)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -48,16 +42,3 @@ The most fundamental HTML structure for a web page:
   <p>This is a simple HTML page.</p>
 </body>
 </html>
-
-
-
-### Steps to create this file:
-
-1. **Create a new file** called `README.md` in the root directory of your repository.
-2. Copy the content provided above and paste it into the newly created `README.md`.
-3. Save the file.
-
-### Final Notes:
-
-- If there are specific types of HTML templates or examples that you want to feature (e.g., forms, CSS integration, or JavaScript interaction), you can expand the "Code Examples" section further.
-- The repository might include templates for things like **Landing Pages**, **Portfolio Sites**, **Navigation Bars**, etc., which can also be described and demonstrated with relevant examples.
